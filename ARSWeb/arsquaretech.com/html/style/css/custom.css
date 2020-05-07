@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 28, 2016, 1:40:45 PM
+    Author     : panindra
+MARKDIGI
+2016-17 
+*/
+.top-bar {
+    padding: 6px 0
+}
+
+
+.navbar .navbar-nav > li > a {
+    padding: 0;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 150ms ease-in;
+    line-height: 1;
+    font-family: Segoe UI, Arial, Helvetica, sans-serif;
+    position: relative;
+}
+@media (min-width: 992px)
+.navbar.classic .navbar-nav, .navbar.classic .navbar-header {
+    height: 74px;
+}
+@media (min-width: 992px)
+.navbar.classic .navbar-nav > li > a {
+    line-height: 74px;
+}
+
+.txt-white{
+    
+    color:#ffffff;
+}
+.top-mob-bar{
+    
+    background: #000;
+    padding: 5px 2px;
+    
+    
+}
